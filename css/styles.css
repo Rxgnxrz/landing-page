@@ -1,14 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 .top {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    background-color: #1f2937;
+    font-family: "Roboto", sans-serif;
+    padding-top: 20px;
     
 }
 .logo {
+    align-items: center;
+    font-weight: bold;
     font-size: 24px;
+    color: #f9faf8;
     
 }
 .links {
-    display: flex;S
+    display: flex;
+    font-size: 18px;
+    color: #e5e7eb;
+    list-style: none;
 }
 .one {
     margin: 0 20px 0 0;
