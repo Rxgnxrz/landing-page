@@ -170,3 +170,11 @@
     font-weight: bold;
     border-color: white;
 }
+.last {
+    background-color: #1f2937;
+    font-family: "Roboto", sans-serif;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
