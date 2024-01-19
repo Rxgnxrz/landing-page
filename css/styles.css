@@ -15,6 +15,7 @@
     font-weight: bold;
     font-size: 24px;
     color: #f9faf8;
+    padding-left: 28px;
     
 }
 .links {
@@ -28,4 +29,53 @@
 }
 .two {
     margin: 0 20px 0 0;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1f2937;
+    font-family: "Roboto", sans-serif;
+    padding-top: 40px; 
+    
+}
+.left {
+    padding-left: 200px;
+    padding-bottom: 40px;
+}
+.hero-title {
+    font-weight: bold;
+    font-size: 48px;
+    color: #f9faf8;
+    padding-bottom: 20px;
+    
+}
+.hero-secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+    padding-bottom: 20px;
+    
+    
+}
+.first-button {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+    border-style: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+.right {
+    display: flex;
+    align-items: center;
+    
+}
+.game {
+    height: 300px;
+    width: 500px;
+    padding: 0 170px 50px 0;
 }
